@@ -1,0 +1,20 @@
+{
+  "name": "Mi PWA",
+  "short_name": "PWA",
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "theme_color": "#2196f3",
+  "icons": [
+    {
+      "src": "/ipad.png",
+      "sizes": "600x600",
+      "type": "image/png"
+    },
+    {
+      "src": "/computer.png",
+      "sizes": "1920x1080",
+      "type": "image/png"
+    }
+  ]
+}
