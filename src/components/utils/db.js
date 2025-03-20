@@ -1,6 +1,6 @@
 import { openDB } from 'idb';
 
-async function createStoreInDB() {
+export async function createStoreInDB() {
   const dbPromise = await openDB('vidaPlena', 1, {
     upgrade(db) {
       console.log('Creating a new object store...');
