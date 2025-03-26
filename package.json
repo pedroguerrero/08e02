@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "test:cov": "jest --coverage --collectCoverageFrom='src/**/*.{js,jsx}'"
   },
   "dependencies": {
     "idb": "^8.0.2",
